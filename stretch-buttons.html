@@ -1,4 +1,33 @@
-<style>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>stretch buttons</title>
+    <style>
+  .stretch-button {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: padding 0.15s;
+    margin: 0.15s;
+  }
+
+  .stretch-button:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+</style><style>
   .stretch-button {
     background-color: green;
     color: white;
@@ -24,7 +53,8 @@
     margin-right: 0px;
   }
 </style>
-
+  </head>
+  <body>
 <button class="stretch-button">
   One
 </button>
@@ -34,3 +64,5 @@
 <button class="stretch-button">
   Three
 </button>
+  </body>
+</html>
